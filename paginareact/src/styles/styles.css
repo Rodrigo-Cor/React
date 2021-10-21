@@ -1,0 +1,42 @@
+/*Nueva Paleta de Colores*/
+:root{
+    --principal: #3DB2FF;
+    --second: #FFEDDA;
+    --third: #FFB830;
+    --fourth: #FF2442;
+    --black: #131313;
+    --white: #faf3f3;
+}
+.principal{
+    min-height: 100vh;
+    width:100vw;
+    color: var(--fourth);
+    background-color: var(--principal);
+}
+.container-form{
+    color: var(--principal);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.form-react{
+    border-radius: 25px;
+    max-width: 500px;
+    width: 100%;
+    padding: 70px 20px;
+    background-color: var(--white);
+}
+.table{
+    background-color: #FFF;
+}
+.form{
+    width: 100%;
+    max-width: 500px;
+}
+.txt-rfc{
+    letter-spacing: 10px;
+}
+label{
+    margin-bottom: 5px;
+}
