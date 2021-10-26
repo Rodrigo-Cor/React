@@ -10,7 +10,7 @@ const WelcomeContainer = () =>{
     const [item, setItem] = useState({id:'', name:''});
     const [data, setData] = useState([
         {id:"004", name:"Oscar Juarez"},
-        {id:"002", name:"Alex Fuentes"},
+        {id:"002", name:"Alex Hernandez"},
         {id:"001", name:"Joel Villa"}
     ]);
 
